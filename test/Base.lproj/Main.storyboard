@@ -16,8 +16,19 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8u-Pf-NtF">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="0.49196586879999998" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="t8u-Pf-NtF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Evq-Yz-jdQ"/>
+                            <constraint firstItem="t8u-Pf-NtF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iRJ-Xx-CTu"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
