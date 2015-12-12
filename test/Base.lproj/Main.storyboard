@@ -22,12 +22,21 @@
                                 <animations/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnC-Lv-zc2">
+                                <rect key="frame" x="286" y="62" width="28" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="0.49196586879999998" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="LnC-Lv-zc2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="42" id="Dtj-nV-Zae"/>
                             <constraint firstItem="t8u-Pf-NtF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Evq-Yz-jdQ"/>
                             <constraint firstItem="t8u-Pf-NtF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iRJ-Xx-CTu"/>
+                            <constraint firstItem="LnC-Lv-zc2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wn1-RW-IDd"/>
                         </constraints>
                     </view>
                 </viewController>
